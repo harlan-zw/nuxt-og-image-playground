@@ -12,6 +12,10 @@ export default defineNuxtConfig({
 
   devtools: true,
 
+  nitro: {
+    preset: process.env.NITRO_PRESET,
+  },
+
   ogImage: {
     // @todo this is broken in vercel
     // fonts: [
