@@ -2,13 +2,13 @@
 
 Testing nitro deployments for [nuxt-og-image](https://github.com/harlan-zw/nuxt-og-image).
 
-| Provider                           | Satori |  Browser |
-|------------------------------------|----------------| -- |
-| StackBlitz                         | ✅             | ❌             |
-| Node                               | ✅             | ✅              |
-| Vercel                             | ✅             | ✅             |
-| Vercel Edge                        | ✅             | ❌              |
-| Cloudflare Workers (requires paid) | ✅            | ❌             |
-| Cloudflare Pages (requires paid)   | ✅            | ❌             |
-| Netlify                            | ✅              | ❌             |
-| Netlify Edge (TBC)                 | ❌             | ❌             |
+| Provider                                                                   | Satori | Browser |
+|----------------------------------------------------------------------------|--------|---------|
+| Node                                                                       | ✅      | ✅       |
+| [Vercel](https://nuxt-og-image-playground.vercel.app/)                     | ✅      | Soon    |
+| [Vercel Edge](https://nuxt-og-image-playground-gkdt.vercel.app/)           | ✅      | ❌       |
+| Cloudflare Workers (requires paid)                                         | ✅      | ❌       |
+| [Cloudflare Pages](https://nuxt-og-image-playground.pages.dev/)            | ✅      | ❌       |
+| [Netlify](https://nuxt-og-image-playground-netlify.netlify.app/)           | Soon   | ❌       |
+| [Netlify Edge](https://nuxt-og-image-playground-netlify-edge.netlify.app/) | Soon   | ❌       |
+| StackBlitz                                                                 | ✅      | ❌       |
