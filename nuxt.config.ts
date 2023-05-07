@@ -13,15 +13,16 @@ export default defineNuxtConfig({
   devtools: true,
 
   ogImage: {
-    fonts: [
-      'Inter:400',
-      'Inter:700',
-      {
-        name: 'optieinstein',
-        weight: 800,
-        path: '/OPTIEinstein-Black.otf',
-      }
-    ],
+    // @todo this is broken in vercel
+    // fonts: [
+    //   'Inter:400',
+    //   'Inter:700',
+    //   {
+    //     name: 'optieinstein',
+    //     weight: 800,
+    //     path: '/OPTIEinstein-Black.otf',
+    //   }
+    // ],
     playground: true,
     runtimeBrowser: true,
     runtimeCacheStorage: false,
