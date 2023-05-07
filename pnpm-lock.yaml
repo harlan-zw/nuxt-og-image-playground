@@ -8,8 +8,8 @@ dependencies:
     specifier: latest
     version: 3.4.3(@types/node@20.1.0)
   nuxt-og-image:
-    specifier: 2.0.0-beta.32
-    version: 2.0.0-beta.32(vue@3.2.47)
+    specifier: 2.0.0-beta.33
+    version: 2.0.0-beta.33(vue@3.2.47)
 
 packages:
 
@@ -4904,8 +4904,8 @@ packages:
       - vue
     dev: false
 
-  /nuxt-og-image@2.0.0-beta.32(vue@3.2.47):
-    resolution: {integrity: sha512-DMNJMOJ7viJ8cfCcl0XSZtEA5c+h9/36eXhT3vPWdn2KbitSkc0Pha4dwTmheN+EbbTOtGlPdMloylLu11iN9g==}
+  /nuxt-og-image@2.0.0-beta.33(vue@3.2.47):
+    resolution: {integrity: sha512-k4o9yN/y63iivx8wlU7s3TIgQzUVR4A7yL6AMUCuj8p7KuSpVlGzvymnGe4Ly6a6eq7cxFn+GOjXmhSVKaeqzg==}
     dependencies:
       '@nuxt/kit': 3.4.3
       '@resvg/resvg-wasm': 2.4.1
@@ -4927,7 +4927,7 @@ packages:
       pathe: 1.1.0
       playwright-core: 1.33.0
       radix3: 1.0.1
-      satori: 0.7.3
+      satori: 0.7.4
       satori-html: 0.3.2
       sirv: 2.0.3
       std-env: 3.3.3
@@ -5901,8 +5901,8 @@ packages:
       ultrahtml: 1.2.0
     dev: false
 
-  /satori@0.7.3:
-    resolution: {integrity: sha512-EM71DU+XuX0O0b85P7qH38dQovGITS5lK81It/lXAXNjT44b7YlotFU7H0vQ+Njk0WyN/5/bdRPYYCFUKPGWfg==}
+  /satori@0.7.4:
+    resolution: {integrity: sha512-LG/s98vpB7JGREfK1HNrAoUezRg/dyKyn8AuRG190j3Puq3xzt9S8Q6eUeA/1IpBgguNR0xvnucEOVB6+a2yGg==}
     engines: {node: '>=16'}
     dependencies:
       '@shuding/opentype.js': 1.4.0-beta.0
