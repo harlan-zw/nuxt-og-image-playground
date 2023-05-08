@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     //   }
     // ],
     playground: true,
-    runtimeBrowser: true,
+    runtimeBrowser: false,
     defaults: {
       // component: 'BannerTemplate',
       appName: 'My App',
