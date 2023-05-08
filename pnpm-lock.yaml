@@ -4,6 +4,9 @@ dependencies:
   '@nuxt/devtools-ui-kit':
     specifier: ^0.4.5
     version: 0.4.5(nuxt@3.4.3)
+  '@resvg/resvg-js':
+    specifier: ^2.4.1
+    version: 2.4.1
   nuxt:
     specifier: latest
     version: 3.4.3
