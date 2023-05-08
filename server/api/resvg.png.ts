@@ -1,4 +1,4 @@
-import { defineEventHandler } from 'h3'
+import { defineEventHandler, setHeader } from 'h3'
 import { Resvg } from '@resvg/resvg-js'
 
 export default defineEventHandler(async (e) => {
@@ -9,5 +9,6 @@ export default defineEventHandler(async (e) => {
         '  \n' +
         '</filter></defs><rect width="700" height="700" fill="url(#ffflux-gradient)" filter="url(#ffflux-filter)"></rect></svg>', {})
     const pngData = resvgJS.render()
+    setHeader(e, 'Content-Type', 'image/png')
     return pngData.asPng()
 })
