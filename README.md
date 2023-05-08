@@ -11,4 +11,4 @@ Testing nitro deployments for [nuxt-og-image](https://github.com/harlan-zw/nuxt-
 | [Cloudflare Pages](https://nuxt-og-image-playground.pages.dev/)            | ✅      | ❌       |
 | [Netlify](https://nuxt-og-image-playground-netlify.netlify.app/)           | Soon   | ❌       |
 | [Netlify Edge](https://nuxt-og-image-playground-netlify-edge.netlify.app/) | Soon   | ❌       |
-| StackBlitz                                                                 | ✅      | ❌       |
+| [StackBlitz](https://stackblitz.com/edit/nuxt-starter-pxs3wk?file=package.json) | ✅      | ❌       |
