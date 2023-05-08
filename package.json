@@ -3,7 +3,7 @@
   "dependencies": {
     "@nuxt/devtools-ui-kit": "^0.4.5",
     "nuxt": "latest",
-    "nuxt-og-image": "2.0.0-beta.37"
+    "nuxt-og-image": "2.0.0-beta.38"
   },
   "scripts": {
     "build": "nuxi build",
