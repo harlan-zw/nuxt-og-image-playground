@@ -7,7 +7,6 @@ Testing nitro deployments for [nuxt-og-image](https://github.com/harlan-zw/nuxt-
 | Node                                                                       | ✅      | ✅       |
 | [Vercel](https://nuxt-og-image-playground.vercel.app/)                     | ✅      | Soon    |
 | [Vercel Edge](https://nuxt-og-image-playground-gkdt.vercel.app/)           | ✅      | ❌       |
-| Cloudflare Workers (requires paid)                                         | ✅      | ❌       |
 | [Cloudflare Pages](https://nuxt-og-image-playground.pages.dev/)            | ✅      | ❌       |
 | [Netlify](https://nuxt-og-image-playground-netlify.netlify.app/)           | Soon   | ❌       |
 | [Netlify Edge](https://nuxt-og-image-playground-netlify-edge.netlify.app/) | Soon   | ❌       |

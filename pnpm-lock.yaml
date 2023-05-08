@@ -8,8 +8,8 @@ dependencies:
     specifier: latest
     version: 3.4.3
   nuxt-og-image:
-    specifier: 2.0.0-beta.36
-    version: 2.0.0-beta.36
+    specifier: 2.0.0-beta.37
+    version: 2.0.0-beta.37
 
 packages:
 
@@ -4663,8 +4663,8 @@ packages:
       - vue
     dev: false
 
-  /nuxt-og-image@2.0.0-beta.36:
-    resolution: {integrity: sha512-8tTgZo1ljvqUiC+yPMRmphxvqztKgdjzjCnsXPZ3+ctns5Z0ZKkGhEKVTsM0Be5HYHxM7G9wfo6MKi+CqMe2Kg==}
+  /nuxt-og-image@2.0.0-beta.37:
+    resolution: {integrity: sha512-I93ERoLH/9DhF+WpZ70kWPMwXVPcCGt9lsaZPek5lClo3+qX/3gfTxJat4yG1MI0kmbgP4oM+6/3IdLIfcOrzw==}
     dependencies:
       '@nuxt/kit': 3.4.3
       '@resvg/resvg-wasm': 2.4.1
