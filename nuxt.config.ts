@@ -7,6 +7,13 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'nuxt-icon',
     'nuxt-og-image',
+    (_, nuxt) => {
+      function getNitroPreset(nuxt: Nuxt) {
+        return process.env.NITRO_PRESET || nuxt.options.nitro.preset
+      }
+
+      console.log({ preset: getNitroPreset(nuxt), env: process.env.NITRO_PRESET, option: nuxt.options.nitro.preset })
+    }
   ],
   unocss: extendUnocssOptions({}),
 
