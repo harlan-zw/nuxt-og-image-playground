@@ -16,6 +16,7 @@ export default defineEventHandler(async (e) => {
         },
     })
     const png = resvgJS.render().asPng()
-    setHeader(e, 'Content-Type', 'image/png')
-    return png
+    const jpg = sharp(png).jpeg({ quality: 70, progressive: true })
+    setHeader(e, 'Content-Type', 'image/jpg')
+    return jpg
 })

@@ -9,5 +9,7 @@ export default defineEventHandler(async (e) => {
         '  \n' +
         '</filter></defs><rect width="700" height="700" fill="url(#ffflux-gradient)" filter="url(#ffflux-filter)"></rect></svg>', {})
     const pngData = resvgJS.render()
-    return pngData.asPng()
+    const png = pngData.asPng().toString('base64')
+    setHeader(e, 'Content-Type', 'text/html')
+    return '<html><body><img src="data:image/png;base64,' + png + '"></body></html>'
 })
