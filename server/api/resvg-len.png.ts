@@ -19,6 +19,8 @@ export default defineEventHandler(async (e) => {
     const png = pngData.asPng().toString('base64')
     const buffer = Buffer.from(png, 'base64')
     setHeader(e, 'Content-Type', 'image/png')
+    // add size header
+    setHeader(e, 'Content-Length', buffer.length.toString())
     // we return png back to a buffer
     return buffer
 })
