@@ -15,8 +15,20 @@ export default defineNuxtModule({
                     console.log(path)
                     let contents = (await readFile(path, 'utf-8'))
                     if (path.endsWith('netlify.mjs')) {
-                        contents = contents.replace('body: r.body.toString()', 'body: r.body.toString(\'base64\'),\n' +
-                            '    isBase64Encoded: true')
+                        const match = '// TODO: handle event.isBase64Encoded\n' +
+                            '  });'
+                        contents = contents.replace(match, `${match}\n
+  console.log(typeof r.body, r.headers["content-type"])
+  const contentType = r.headers["content-type"] || r.headers['Content-Type']
+  // must send jpg / png as base 64 encoded
+  if (["image/png", "image/jpeg"].includes(contentType)) {
+    return {
+      statusCode: r.status,
+      headers: normalizeOutgoingHeaders(r.headers),
+      body: r.body.toString("base64"),
+      isBase64Encoded: true
+    };
+  }`)
                         await writeFile(path, contents, { encoding: 'utf-8' })
                     }
 
