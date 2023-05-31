@@ -17,9 +17,9 @@ export default defineEventHandler(async (e) => {
     const pngData = resvgJS.render()
     const png = pngData.asPng()
     console.log('buffer len', png.length)
+
+    // set base64 encoded png as a response body
     setHeader(e, 'Content-Type', 'image/png')
-    // add size header
-    setHeader(e, 'Content-Length', png.length)
     // we return png back to a buffer
-    return e.node.res.end(png);
+    return png
 })
