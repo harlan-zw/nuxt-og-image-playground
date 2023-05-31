@@ -7,10 +7,12 @@ export default defineEventHandler(async (e) => {
         '  <feGaussianBlur stdDeviation="20 0" x="0%" y="0%" width="100%" height="100%" in="turbulence" edgeMode="duplicate" result="blur"></feGaussianBlur>\n' +
         '  <feBlend mode="color-dodge" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" in2="blur" result="blend"></feBlend>\n' +
         '  \n' +
-        '</filter></defs><rect width="700" height="700" fill="url(#ffflux-gradient)" filter="url(#ffflux-filter)"></rect></svg>', {
-        logLevel: 'debug'
-    })
+        '</filter></defs><rect width="700" height="700" fill="url(#ffflux-gradient)" filter="url(#ffflux-filter)"></rect></svg>', {})
     const pngData = resvgJS.render()
-    setHeader(e, 'Content-Type', 'image/png')
-    return pngData.asPng()
+    const buffer = pngData.asPng()
+    // buffer to text
+    const text = buffer.toString('utf-8')
+    // header
+    setHeader(e, 'Content-Type', 'text/plain')
+    return text
 })
