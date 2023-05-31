@@ -18,14 +18,14 @@ export default defineNuxtModule({
                         const match = '// TODO: handle event.isBase64Encoded\n' +
                             '  });'
                         contents = contents.replace(match, `${match}\n
-  console.log(Buffer.isBuffer(r.body), r.headers["content-type"])
-  // must send jpg / png as base 64 encoded
-  if (r.headers["content-type"].startsWith('image/')) {
+  const headers = normalizeOutgoingHeaders(r.headers);
+  // image buffers must be base64 encoded
+  if (Buffer.isBuffer(r.body) && headers["content-type"].startsWith("image/")) {
     return {
       statusCode: r.status,
-      headers: normalizeOutgoingHeaders(r.headers),
+      headers,
       body: r.body.toString("base64"),
-      isBase64Encoded: true
+      isBase64Encoded: true,
     };
   }`)
                         await writeFile(path, contents, { encoding: 'utf-8' })
