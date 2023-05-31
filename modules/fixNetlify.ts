@@ -18,10 +18,9 @@ export default defineNuxtModule({
                         const match = '// TODO: handle event.isBase64Encoded\n' +
                             '  });'
                         contents = contents.replace(match, `${match}\n
-  console.log(typeof r.body, r.headers["content-type"])
-  const contentType = r.headers["content-type"] || r.headers['Content-Type']
+  console.log(Buffer.isBuffer(r.body), r.headers["content-type"])
   // must send jpg / png as base 64 encoded
-  if (["image/png", "image/jpeg"].includes(contentType)) {
+  if (r.headers["content-type"].startsWith('image/')) {
     return {
       statusCode: r.status,
       headers: normalizeOutgoingHeaders(r.headers),
