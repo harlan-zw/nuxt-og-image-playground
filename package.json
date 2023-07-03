@@ -2,10 +2,11 @@
   "private": true,
   "packageManager": "pnpm@8.6.0",
   "dependencies": {
-    "@nuxt/devtools-ui-kit": "^0.5.5",
+    "@nuxt/devtools-ui-kit": "^0.6.6",
     "@resvg/resvg-js": "^2.4.1",
-    "nuxt": "^3.5.2",
-    "nuxt-og-image": "2.0.0-beta.41"
+    "nuxt": "^3.6.1",
+    "nuxt-icon": "^0.4.2",
+    "nuxt-og-image": "2.0.0-beta.72"
   },
   "scripts": {
     "build": "nuxi build",
