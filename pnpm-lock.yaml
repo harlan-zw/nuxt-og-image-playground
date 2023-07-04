@@ -21,8 +21,8 @@ dependencies:
     specifier: ^0.4.2
     version: 0.4.2
   nuxt-og-image:
-    specifier: 2.0.2
-    version: 2.0.2
+    specifier: 2.0.3
+    version: 2.0.3
 
 packages:
 
@@ -6472,8 +6472,8 @@ packages:
       - vue
     dev: false
 
-  /nuxt-og-image@2.0.2:
-    resolution: {integrity: sha512-49/swubln5X1nLCm98VrwoymxwupDlOvvqMEzCnFf1ilMawomKi0OjXZ2iC4/tJ6Kt3hL2vhV0tRsWUq1kWcTw==}
+  /nuxt-og-image@2.0.3:
+    resolution: {integrity: sha512-Dxoev6yzckV2y9lO+dPnc7RCYDhujKPtSEaDCnnvEeHIf796USTXYtQ3KRFuGlsbfU+n8mNwSRurJotrPq7WnA==}
     dependencies:
       '@nuxt/kit': 3.6.1
       '@resvg/resvg-js': 2.4.1

@@ -18,10 +18,10 @@ export default defineNuxtConfig({
   },
 
   ogImage: {
-    // @todo this is broken in vercel
     fonts: [
       'Inter:400',
       'Inter:700',
+      // @todo this is broken in a number of environments
       {
         name: 'optieinstein',
         weight: 800,
