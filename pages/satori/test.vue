@@ -11,7 +11,7 @@ useSeoMeta({
   title: title,
 });
 
-defineOgImageStatic({
+defineOgImage({
   image: image,
   accent: accent,
 });

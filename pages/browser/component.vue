@@ -7,6 +7,6 @@ definePageMeta({
 </script>
 <template>
 <div>
-  <OgImageStatic provider="browser" component="BannerTemplate" title="Static Banner" />
+  <OgImage provider="browser" title="Static Banner" />
 </div>
 </template>

@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'nuxt-icon',
     'nuxt-og-image',
+    '@nuxthq/ui',
   ],
   unocss: extendUnocssOptions({}),
 
@@ -18,15 +19,15 @@ export default defineNuxtConfig({
 
   ogImage: {
     // @todo this is broken in vercel
-    // fonts: [
-    //   'Inter:400',
-    //   'Inter:700',
-    //   {
-    //     name: 'optieinstein',
-    //     weight: 800,
-    //     path: '/OPTIEinstein-Black.otf',
-    //   }
-    // ],
+    fonts: [
+      'Inter:400',
+      'Inter:700',
+      {
+        name: 'optieinstein',
+        weight: 800,
+        path: '/OPTIEinstein-Black.otf',
+      }
+    ],
     playground: true,
     runtimeBrowser: false,
     defaults: {
