@@ -24,8 +24,8 @@ dependencies:
     specifier: ^0.6.6
     version: 0.6.6(nuxt@3.8.2)
   nuxt-og-image:
-    specifier: 3.0.0-beta.2
-    version: 3.0.0-beta.2(nuxt@3.8.2)
+    specifier: 3.0.0-beta.3
+    version: 3.0.0-beta.3(nuxt@3.8.2)
 
 packages:
 
@@ -6373,8 +6373,8 @@ packages:
       - vue
     dev: false
 
-  /nuxt-og-image@3.0.0-beta.2(nuxt@3.8.2):
-    resolution: {integrity: sha512-yKqZbhmL95d4j7pHAX+avRa/JnKIhAFRsE3ylYftY3lokv3uwoD/PcPep7ycwg6n56KjHRDHZspDdl2JHyv3+Q==}
+  /nuxt-og-image@3.0.0-beta.3(nuxt@3.8.2):
+    resolution: {integrity: sha512-9X9lFDtmP05EnuPE/f/ogWoYiRh1YPnKR5a3rgT8UpEtMvnuGS22qfymxoYvE6w9yTDX9KWCR+BDIQELUcK2sg==}
     dependencies:
       '@img/sharp-libvips-dev': 1.0.0
       '@img/sharp-wasm32': 0.33.0-rc.2
