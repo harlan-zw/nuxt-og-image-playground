@@ -15,6 +15,12 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: process.env.NITRO_PRESET,
+    wasm: {
+      esmImport: true,
+    },
+    experimental: {
+      wasm: true,
+    }
   },
 
   ogImage: {
