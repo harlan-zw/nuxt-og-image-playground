@@ -43,11 +43,11 @@ onBeforeUnmount(() => {
   clearInterval(interval)
 })
 
-const tailwindUrl = ref(`${host.value}satori/tailwind/__og_image__/og.png?title=${encodeURIComponent(title.value)}&bgColor=${color.value.replace('#', '')}`)
+const tailwindUrl = ref(`/__og-image__/image/satori/tailwind/og.png?title=${encodeURIComponent(title.value)}&bgColor=${color.value.replace('#', '')}`)
 
 const setTailwindUrl = useDebounceFn(() => {
   // do something
-  tailwindUrl.value = `${host.value}satori/tailwind/__og_image__/og.png?title=${encodeURIComponent(title.value)}&bgColor=${color.value.replace('#', '')}`
+  tailwindUrl.value = `/__og-image__/image/satori/tailwind/og.png?title=${encodeURIComponent(title.value)}&bgColor=${color.value.replace('#', '')}`
 }, 500)
 
 
@@ -65,36 +65,36 @@ watch([color, title], () => {
       <h3 class="text-lg font-bold mb-3">Browser Screenshot</h3>
       <div class="lg:grid grid-cols-1 gap-5">
         <div>
-          <NuxtLink external no-prefetch to="/browser/delayed/__og_image__/og.png" target="_blank">
+          <NuxtLink external no-prefetch to="/__og-image__/image/browser/delayed/og.png" target="_blank">
             <div class="mb-2">Delayed Screenshot</div>
-            <img :src="`${host}browser/delayed/__og_image__/og.png`" width="400" height="210" class="rounded" />
+            <img :src="`/__og-image__/image/browser/delayed/og.png`" width="400" height="210" class="rounded" />
           </NuxtLink>
         </div>
         <div>
-          <NuxtLink external no-prefetch to="/browser/component/__og_image__/og.png" target="_blank">
+          <NuxtLink external no-prefetch to="/__og-image__/image/browser/component/og.png" target="_blank">
             <div class="mb-2">Vue Component</div>
-            <img :src="`${host}browser/component/__og_image__/og.png`" width="400" height="210" class="rounded" />
+            <img :src="`/__og-image__/image/browser/component/og.png`" width="400" height="210" class="rounded" />
           </NuxtLink>
         </div>
       </div>
       <hr class="my-10">
       <h2 class="text-lg font-bold mb-3">Satori</h2>
       <div class="lg:grid grid-cols-1 gap-5">
-        <NuxtLink external no-prefetch to="/satori/static/__og_image__/og.png" target="_blank">
+        <NuxtLink external no-prefetch to="/__og-image__/image/satori/static/og.png" target="_blank">
           <div class="mb-2">Default template</div>
-          <img :src="`${host}satori/static/__og_image__/og.png`" width="400" height="210" class="rounded" />
+          <img :src="`/__og-image__/image/satori/static/og.png`" width="400" height="210" class="rounded" />
         </NuxtLink>
-        <NuxtLink external no-prefetch to="/satori/with-options/__og_image__/og.png" target="_blank">
+        <NuxtLink external no-prefetch to="/__og-image__/image/satori/with-options/og.png" target="_blank">
           <div class="mb-2">Default with options</div>
-          <img :src="`${host}satori/with-options/__og_image__/og.png`" width="400" height="210" class="rounded" />
+          <img :src="`/__og-image__/image/satori/with-options/og.png`" width="400" height="210" class="rounded" />
         </NuxtLink>
-        <NuxtLink external no-prefetch to="/satori/image/__og_image__/og.png" target="_blank">
+        <NuxtLink external no-prefetch to="/__og-image__/image/satori/image/og.png" target="_blank">
           <div class="mb-2">Image</div>
-          <img :src="`${host}satori/image/__og_image__/og.png`" width="400" height="210" class="rounded" />
+          <img :src="`/__og-image__/image/satori/image/og.png`" width="400" height="210" class="rounded" />
         </NuxtLink>
-        <NuxtLink external no-prefetch to="/satori/custom-font/__og_image__/og.png" target="_blank">
+        <NuxtLink external no-prefetch to="/__og-image__/image/satori/custom-font/og.png" target="_blank">
           <div class="mb-2">Custom Font</div>
-          <img :src="`${host}satori/custom-font/__og_image__/og.png`" width="400" height="210" class="rounded" />
+          <img :src="`/__og-image__/image/satori/custom-font/og.png`" width="400" height="210" class="rounded" />
         </NuxtLink>
       </div>
     </div>
@@ -103,9 +103,9 @@ watch([color, title], () => {
       <p class="italic opacity-70 text-xs mb-10">Note: These may break as I'm on the free Vercel tier</p>
       <h3 class="text-lg font-bold mb-3">Satori</h3>
       <div class="lg:grid grid-cols-1 gap-5">
-        <NuxtLink external no-prefetch to="/satori/time/__og_image__/og.png" target="_blank">
+        <NuxtLink external no-prefetch to="/__og-image__/image/satori/time/og.png" target="_blank">
           <div class="mb-2">Current time <span class="text-xs opacity-70">updates every 15 seconds</span></div>
-          <img :src="`${host}satori/time/__og_image__/og.png?description=Generated+at+runtime&title=The+time+is+${time}`" width="800" height="420" class="rounded" />
+          <img :src="`/__og-image__/image/satori/time/og.png?description=Generated+at+runtime&title=The+time+is+${time}`" width="800" height="420" class="rounded" />
         </NuxtLink>
         <div>
           <div class="mb-2">Tailwind - Custom Props Example</div>
@@ -119,7 +119,7 @@ watch([color, title], () => {
               <input type="text" v-model="title" class="border-1 border-gray-200 px-2 py-1 mb-1">
             </label>
           </div>
-          <NuxtLink external no-prefetch to="/satori/tailwind/__og_image__/og.png" target="_blank">
+          <NuxtLink external no-prefetch to="/__og-image__/image/satori/tailwind/og.png" target="_blank">
             <img :src="tailwindUrl" width="800" height="420" class="rounded" />
           </NuxtLink>
         </div>

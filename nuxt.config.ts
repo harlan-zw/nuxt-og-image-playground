@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'nuxt-icon',
     'nuxt-og-image',
-    '@nuxthq/ui',
+    '@nuxt/ui',
   ],
   unocss: extendUnocssOptions({}),
 
@@ -28,7 +28,6 @@ export default defineNuxtConfig({
         path: '/OPTIEinstein-Black.otf',
       }
     ],
-    playground: true,
     runtimeBrowser: false,
     defaults: {
       // component: 'BannerTemplate',
