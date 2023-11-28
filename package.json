@@ -4,9 +4,13 @@
   "dependencies": {
     "@nuxt/devtools-ui-kit": "^1.0.4",
     "@nuxt/ui": "^2.7.0",
+    "nitropack": "npm:nitropack-nightly@2.8.1-28352923.b53e001",
     "nuxt": "^3.8.2",
     "nuxt-icon": "^0.6.6",
     "nuxt-og-image": "3.0.0-beta.2"
+  },
+  "resolutions": {
+    "nitropack": "npm:nitropack-nightly@2.8.1-28352923.b53e001"
   },
   "scripts": {
     "build": "nuxi build",
