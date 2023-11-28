@@ -36,6 +36,16 @@ export default defineNuxtConfig({
       // component: 'BannerTemplate',
       appName: 'My App',
     },
+    runtimeCompatibility: {
+      bindings: {
+        'chromium': false,
+        'css-inline': 'node',
+        'resvg': 'wasm',
+        'satori': 'node',
+        'sharp': false,
+      },
+      wasmStrategy: 'inline',
+    },
     debug: true,
   },
 
