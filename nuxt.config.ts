@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     },
     wasm: {
       rollup: {
-        targetEnv: 'browser'
+        targetEnv: 'node'
       }
       // esmImport: true,
     },
