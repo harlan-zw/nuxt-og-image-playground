@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     },
     wasm: {
       rollup: {
-        targetEnv: 'auto-inline'
+        targetEnv: 'browser'
       }
       // esmImport: true,
     },
