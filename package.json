@@ -7,7 +7,7 @@
     "nitropack": "npm:nitropack-nightly@2.8.1-28352923.b53e001",
     "nuxt": "^3.8.2",
     "nuxt-icon": "^0.6.6",
-    "nuxt-og-image": "3.0.0-beta.8"
+    "nuxt-og-image": "3.0.0-beta.10"
   },
   "resolutions": {
     "nitropack": "npm:nitropack-nightly@2.8.1-28352923.b53e001"
