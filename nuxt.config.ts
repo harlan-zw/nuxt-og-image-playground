@@ -20,7 +20,8 @@ export default defineNuxtConfig({
     },
     wasm: {
       rollup: {
-        targetEnv: 'node'
+        sync: ['@resvg/resvg-wasm/index_bg.wasm'],
+        targetEnv: 'auto-inline'
       }
       // esmImport: true,
     },
