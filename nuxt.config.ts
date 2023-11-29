@@ -13,25 +13,6 @@ export default defineNuxtConfig({
 
   devtools: true,
 
-  nitro: {
-    preset: process.env.NITRO_PRESET,
-    experimental: {
-      wasm: true,
-    },
-    wasm: {
-      // rollup: {
-      //   targetEnv: 'auto-inline'
-      // }
-      esmImport: true,
-    },
-    // unenv: {
-    //   inject: {
-    //     // exclude all wasm files using regex
-    //     exclude: [/\.wasm$/],
-    //   }
-    // },
-  },
-
   ogImage: {
     fonts: [
       'Inter:400',
