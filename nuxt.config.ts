@@ -18,6 +18,18 @@ export default defineNuxtConfig({
     experimental: {
       wasm: true,
     },
+    wasm: {
+      rollup: {
+        targetEnv: 'auto-inline'
+      }
+      // esmImport: true,
+    },
+    // unenv: {
+    //   inject: {
+    //     // exclude all wasm files using regex
+    //     exclude: [/\.wasm$/],
+    //   }
+    // },
   },
 
   ogImage: {
@@ -36,18 +48,19 @@ export default defineNuxtConfig({
       // component: 'BannerTemplate',
       appName: 'My App',
     },
-    runtimeCompatibility: {
-      bindings: {
-        'chromium': false,
-        'css-inline': 'node',
-        'resvg': 'wasm',
-        'satori': 'node',
-        'sharp': false,
-      },
-      wasmStrategy: 'inline',
-    },
+    // runtimeCompatibility: {
+    //   bindings: {
+    //     'chromium': false,
+    //     'css-inline': 'node',
+    //     'resvg': 'wasm',
+    //     'satori': 'node',
+    //     'sharp': false,
+    //   },
+    //   wasmStrategy: 'inline',
+    // },
     debug: true,
   },
+
 
   app: {
     head: {
