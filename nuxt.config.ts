@@ -42,6 +42,19 @@ export default defineNuxtConfig({
     debug: true,
   },
 
+  // nitro: {
+  //   experimental: {
+  //     wasm: true,
+  //   },
+  //   wasm: {
+  //     esmImport: true,
+  //   },
+  //   rollupConfig: {
+  //     output: {
+  //       inlineDynamicImports: true,
+  //     },
+  //   },
+  // },
 
   app: {
     head: {
