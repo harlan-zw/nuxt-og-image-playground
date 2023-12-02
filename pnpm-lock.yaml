@@ -24,8 +24,8 @@ dependencies:
     specifier: ^0.6.6
     version: 0.6.6(nuxt@3.8.2)
   nuxt-og-image:
-    specifier: 3.0.0-beta.14
-    version: 3.0.0-beta.14(nuxt@3.8.2)
+    specifier: 3.0.0-beta.15
+    version: 3.0.0-beta.15(nuxt@3.8.2)
 
 packages:
 
@@ -6276,8 +6276,8 @@ packages:
       - vue
     dev: false
 
-  /nuxt-og-image@3.0.0-beta.14(nuxt@3.8.2):
-    resolution: {integrity: sha512-iCxhGcwFkJCCTvG86q9sKeCG5twaid/kEVnmDreTlq0UWJvwjT6oB2HCmVGPv4VXLzKtR/3t+3ceiel9LIAvPQ==}
+  /nuxt-og-image@3.0.0-beta.15(nuxt@3.8.2):
+    resolution: {integrity: sha512-IvCf+yd14GfFtjD3Z2h7KemTsCB2tx2AYdmhyDMGtUXkpcyY5Yf18/9AAufKalbzschroi0RqcPx2eZrAcYScg==}
     dependencies:
       '@iconify-json/noto': 1.1.17
       '@img/sharp-wasm32': 0.33.0
