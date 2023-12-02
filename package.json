@@ -7,7 +7,7 @@
     "nitropack": "npm:nitropack-nightly@2.8.1-28352923.b53e001",
     "nuxt": "^3.8.2",
     "nuxt-icon": "^0.6.6",
-    "nuxt-og-image": "3.0.0-beta.19"
+    "nuxt-og-image": "3.0.0-beta.20"
   },
   "resolutions": {
     "nitropack": "npm:nitropack-nightly@2.8.1-28352923.b53e001"
@@ -16,7 +16,7 @@
     "build": "nuxi build",
     "prepare": "nuxi prepare",
     "deploy:netlify": "NITRO_PRESET=netlify nuxi build && npx netlify deploy",
-    "deploy:netlify-edge": "NITRO_PRESET=netlify-edge nuxi build && npx netlify deploy",
+    "deploy:netlify-edge": "NITRO_PRESET=netlify_edge nuxi build && npx netlify deploy",
     "deploy:cloudflare-workers": "NITRO_PRESET=cloudflare nuxi build && npx wrangler publish --config wrangler-workers.toml",
     "deploy:cloudflare-pages": "NITRO_PRESET=cloudflare-pages nuxi build && npx wrangler pages publish dist/ --project-name nuxt-og-image-playground-cloudfront-pages",
     "deploy:vercel-edge": "NITRO_PRESET=vercel-edge nuxi build && vercel --prebuilt -d --prod"
