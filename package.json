@@ -2,12 +2,12 @@
   "private": true,
   "packageManager": "pnpm@8.11.0",
   "dependencies": {
-    "@nuxt/devtools-ui-kit": "^1.0.4",
+    "@nuxt/devtools-ui-kit": "^1.0.5",
     "@nuxt/ui": "^2.11.0",
     "nitropack": "npm:nitropack-nightly@2.8.1-28352923.b53e001",
     "nuxt": "^3.8.2",
-    "nuxt-icon": "^0.6.6",
-    "nuxt-og-image": "3.0.0-beta.55"
+    "nuxt-icon": "^0.6.7",
+    "nuxt-og-image": "3.0.0-beta.56"
   },
   "resolutions": {
     "nitropack": "npm:nitropack-nightly@2.8.1-28352923.b53e001"
