@@ -17,14 +17,12 @@ export default defineNuxtConfig({
     fonts: [
       'Inter:400',
       'Inter:700',
-      // @todo this is broken in a number of environments
       {
         name: 'optieinstein',
         weight: 800,
         path: '/OPTIEinstein-Black.otf',
       }
     ],
-    runtimeBrowser: false,
     defaults: {
       // component: 'BannerTemplate',
       appName: 'My App',

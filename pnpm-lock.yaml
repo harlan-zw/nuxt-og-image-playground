@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.6.7
     version: 0.6.7(nuxt@3.8.2)
   nuxt-og-image:
-    specifier: 3.0.0-beta.56
-    version: 3.0.0-beta.56(nuxt@3.8.2)
+    specifier: 3.0.0-rc.1
+    version: 3.0.0-rc.1(nuxt@3.8.2)
 
 packages:
 
@@ -1630,6 +1630,7 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
+      napi-wasm: 1.1.0
     dev: false
     bundledDependencies:
       - napi-wasm
@@ -5339,6 +5340,10 @@ packages:
     hasBin: true
     dev: false
 
+  /napi-wasm@1.1.0:
+    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
+    dev: false
+
   /negotiator@0.6.3:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
@@ -5637,8 +5642,8 @@ packages:
       - vue
     dev: false
 
-  /nuxt-og-image@3.0.0-beta.56(nuxt@3.8.2):
-    resolution: {integrity: sha512-kqS9PNAK30NkhE3IWNLDOJlja9ig7aO/+cIxA2TgRor+fozy2m+pzqAxbokIuA4c3sGVITBlIV9BhTHGoO0U8g==}
+  /nuxt-og-image@3.0.0-rc.1(nuxt@3.8.2):
+    resolution: {integrity: sha512-EXNPu5e9wckRncInJX5qYQff7AhdVDgwatjiIPdCuJNeARv6LEYBPoQsUIBIvF1h8B6rhL1nw8x5ZRUeuDXkRw==}
     dependencies:
       '@iconify-json/noto': 1.1.17
       '@nuxt/devtools-kit': 1.0.5(nuxt@3.8.2)
