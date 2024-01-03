@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.6.8
     version: 0.6.8(nuxt@3.9.0)
   nuxt-og-image:
-    specifier: 3.0.0-rc.15
-    version: 3.0.0-rc.15(nuxt@3.9.0)
+    specifier: 3.0.0-rc.16
+    version: 3.0.0-rc.16(nuxt@3.9.0)
 
 packages:
 
@@ -5736,8 +5736,8 @@ packages:
       - vue
     dev: false
 
-  /nuxt-og-image@3.0.0-rc.15(nuxt@3.9.0):
-    resolution: {integrity: sha512-7aZ8kv4AmcPIiuCCLcvmwZoaWfBQkyJlzlWXCX8xkHwO6+/wmFCfpZUJvN9BmnM4ZNMSFyqZsNZgFtmSfi0Hpw==}
+  /nuxt-og-image@3.0.0-rc.16(nuxt@3.9.0):
+    resolution: {integrity: sha512-DYJRQOeL11YbgeNpHktMsUkjDZpyIi50hZECwJ8hERVNNK4rdvb4bsUVdFjGFk4WnvSriJczyzfH645slFKsyg==}
     dependencies:
       '@css-inline/css-inline': 0.12.1
       '@css-inline/css-inline-wasm': 0.12.1
