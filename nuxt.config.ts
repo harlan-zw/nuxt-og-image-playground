@@ -14,15 +14,15 @@ export default defineNuxtConfig({
   devtools: true,
 
   ogImage: {
-    fonts: [
-      'Inter:400',
-      'Inter:700',
-      {
-        name: 'optieinstein',
-        weight: 800,
-        path: '/OPTIEinstein-Black.otf',
-      }
-    ],
+    // fonts: [
+    //   'Inter:400',
+    //   'Inter:700',
+    //   {
+    //     name: 'optieinstein',
+    //     weight: 800,
+    //     path: '/OPTIEinstein-Black.otf',
+    //   }
+    // ],
     defaults: {
       // component: 'BannerTemplate',
       appName: 'My App',
