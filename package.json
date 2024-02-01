@@ -1,12 +1,12 @@
 {
   "private": true,
-  "packageManager": "pnpm@8.12.0",
+  "packageManager": "pnpm@8.15.1",
   "dependencies": {
-    "@nuxt/devtools-ui-kit": "^1.0.6",
-    "@nuxt/ui": "^2.11.1",
-    "nuxt": "^3.9.0",
+    "@nuxt/devtools-ui-kit": "^1.0.8",
+    "@nuxt/ui": "^2.13.0",
+    "nuxt": "^3.10.0",
     "nuxt-icon": "^0.6.8",
-    "nuxt-og-image": "3.0.0-rc.21"
+    "nuxt-og-image": "3.0.0-rc.32"
   },
   "scripts": {
     "build": "nuxi build",
