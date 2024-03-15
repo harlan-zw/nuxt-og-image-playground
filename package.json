@@ -6,7 +6,7 @@
     "@nuxt/ui": "^2.14.2",
     "nuxt": "^3.10.3",
     "nuxt-icon": "^0.6.9",
-    "nuxt-og-image": "3.0.0-rc.44"
+    "nuxt-og-image": "^3.0.0-rc.44"
   },
   "scripts": {
     "build": "nuxi build",
