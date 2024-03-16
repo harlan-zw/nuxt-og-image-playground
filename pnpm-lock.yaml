@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.6.9
     version: 0.6.9(nuxt@3.10.3)
   nuxt-og-image:
-    specifier: ^3.0.0-rc.46
-    version: 3.0.0-rc.46(nuxt@3.10.3)
+    specifier: ^3.0.0-rc.47
+    version: 3.0.0-rc.47(nuxt@3.10.3)
 
 packages:
 
@@ -564,8 +564,8 @@ packages:
     dev: false
     optional: true
 
-  /@css-inline/css-inline-wasm@0.13.1:
-    resolution: {integrity: sha512-wi5WRtWrbz9ecTMU8061czQWEt5gwgmzZb724KPpu+JOtLQzBadnOYuOCOLmdS6B+PSYeDhj+MtdC9WRJxytHw==}
+  /@css-inline/css-inline-wasm@0.12.1:
+    resolution: {integrity: sha512-yw1PvRUIMky0JGLcLvJZ3sPSyhm77alDeN8M+NvUiQhXz8WhPZVF5EuJNHbKY5fozQIjYqk3GGEmwsbNqYlc6g==}
     engines: {node: '>= 10'}
     dev: false
 
@@ -6110,11 +6110,11 @@ packages:
       - vue
     dev: false
 
-  /nuxt-og-image@3.0.0-rc.46(nuxt@3.10.3):
-    resolution: {integrity: sha512-+Sy4iSCHmYg2Wc346lfBUy6vahyZevDs4MiLIjY9QbRKIuhMeHXdcMhNuOxSPzr9C3razIWgWVmes3hhfXnmLA==}
+  /nuxt-og-image@3.0.0-rc.47(nuxt@3.10.3):
+    resolution: {integrity: sha512-CFm0cZpMGevoJ7HnVUiMAsyWakjoDqcaUOvPhPofBbZYoFl/VU4N7BYDswHMBTGORHJm74blHwapfvvr9FeidA==}
     dependencies:
       '@css-inline/css-inline': 0.13.1
-      '@css-inline/css-inline-wasm': 0.13.1
+      '@css-inline/css-inline-wasm': 0.12.1
       '@nuxt/devtools-kit': 1.0.8(nuxt@3.10.3)
       '@nuxt/kit': 3.10.3
       '@resvg/resvg-js': 2.6.0
