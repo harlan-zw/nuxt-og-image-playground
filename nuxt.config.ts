@@ -9,8 +9,8 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     '@nuxt/ui',
   ],
-  unocss: extendUnocssOptions({}),
 
+  unocss: extendUnocssOptions({}),
   devtools: true,
 
   ogImage: {
@@ -74,4 +74,6 @@ export default defineNuxtConfig({
       ],
     }
   },
+
+  compatibilityDate: '2024-09-29',
 })
