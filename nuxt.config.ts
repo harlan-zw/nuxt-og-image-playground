@@ -11,7 +11,9 @@ export default defineNuxtConfig({
   ],
 
   unocss: extendUnocssOptions({}),
-  devtools: true,
+  devtools: {
+    enabled: true,
+  },
 
   ogImage: {
     // fonts: [
